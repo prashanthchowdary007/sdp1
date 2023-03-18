@@ -4,15 +4,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="static/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SDP_Title</title>
 </head>
 <body>
-   <div class="n1"> 
-
+    <div class="n1"> 
+      <div class="menu1">
         <nav class="navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
             
@@ -39,33 +40,40 @@
                     </ul>
                   </li>
                 </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#" style="color: red;"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
-                        <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
-                      </svg> Coustmer Support </a>
-                      
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Visit</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Login/Register</a>
-                    </li>
-                  </ul>
-
               </div>
+         
+
+
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#" style="color: red;"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                    <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+                  </svg> Coustmer Support </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Visit</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Login/Register</a>
+                </li>
+              </ul>
+            </div>
             </div>
           </nav>
-
+        </div>
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary  sticky-top  ">
         <div class="container-fluid ">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <a class="navbar-brand" href="#"><img id="title" src="static/Title_png.png"></a>
+          <button class="navbar-toggler mx-auto" id="b1" type="button" data-bs-toggle="collapse" data-bs-target="#smenu" aria-controls="smenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+              <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg></span>
           </button>
         
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="smenu">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
@@ -81,11 +89,20 @@
               </li>
             </ul>
           </div>
+          <button type="button" class="btn btn-danger ms-auto">Get Free Estimate</button>
         </div>
       </nav>
-      
+
     </div>
-  
+
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col"><h1>Dream your home with dream desing</h1></div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
